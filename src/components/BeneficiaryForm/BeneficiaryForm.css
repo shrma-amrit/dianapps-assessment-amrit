@@ -1,0 +1,12 @@
+.formThirdRow {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.countryInput {
+  flex-grow: 1;
+}
+
+.pincodeInput {
+  flex-grow: 2;
+}

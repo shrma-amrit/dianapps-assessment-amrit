@@ -1,0 +1,31 @@
+.beneficiaryCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.beneficiaryCard {
+  border: 1px solid #333333;
+  border-radius: 2px;
+  padding: 1rem;
+  width: 70%;
+  height: 30vh;
+  overflow-y: auto;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.listLink {
+  color: #777777;
+  cursor: pointer;
+
+  &:hover {
+    color: #555555;
+  }
+}
+
+.linkContainer {
+  padding: 0 0.25rem 1rem 0.25rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #333333;
+}

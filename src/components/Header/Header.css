@@ -1,0 +1,21 @@
+.headerContainer {
+  background-color: #59538d;
+  border-radius: 2px;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+.homeIcon,
+.userIcon {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.pageHeading {
+  color: #fff;
+  font-size: large;
+  font-weight: bolder;
+  padding: 0 0.5rem;
+}

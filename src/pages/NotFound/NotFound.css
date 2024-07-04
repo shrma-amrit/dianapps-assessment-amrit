@@ -1,0 +1,27 @@
+.cryIcon {
+  width: 15rem;
+  height: 15rem;
+  color: #333333;
+}
+
+.errorNumber {
+  font-size: 5rem;
+  font-weight: normal;
+  color: #333333;
+  line-height: 1;
+}
+
+.errorText {
+  font-size: 2rem;
+  font-weight: normal;
+  color: #333333;
+  line-height: 1.25;
+}
+
+.navigateMessage {
+  font-size: small;
+  font-weight: normal;
+  color: #333333;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}

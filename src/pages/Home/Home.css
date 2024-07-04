@@ -1,0 +1,11 @@
+.welcomePara {
+  font-size: x-large;
+  font-weight: bolder;
+  color: #333333;
+}
+
+.clickPara {
+  font-size: small;
+  font-weight: normal;
+  color: #333333;
+}
