@@ -1,4 +1,4 @@
-import { createBrowserRouter, createHashRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import {
   BENEFICIARY_BY_ID_PATH,
   BENEFICIARY_PATH,
@@ -10,7 +10,7 @@ import { ManageBeneficiaries } from "../pages/ManageBeneficiaries";
 import { NotFound } from "../pages/NotFound";
 import { BeneficiaryById } from "../pages/BeneficiaryById";
 
-const AppRouter = createHashRouter([
+const AppRouter = createBrowserRouter([
   {
     path: HOME_PATH,
     element: <Home />,
